@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Portfolio | Ali Sumaila</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img id = "profile_pic" src="2.jpeg" alt="myphoto" class="img-thumbnail mx-auto">
+                <h3>Ali Sumaila</h3>
+            </div>
+            <div>
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Projects</button>
+                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Certificates</button>
+                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-blog" type="button" role="tab" aria-controls="nav-blog" aria-selected="false">Blogs</button>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+        <main>
+            <div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                        <h4>Hello, world!</h4>
+                        <p>I'm Ali, a software developer living in Madinah, Kingdom of Saudi Arabia.</p>
+                        <p>I run IUApps, a campus-based app store with the sole purpose of developing software to ease the life of students on campus. I'm also the founder of IUSouq and the team lead for FindMyItems.</p>
+                        <p>At IUM, I developed apps that is essential to the life of students on campus. From apps to track lost items to an ecommerce app to facilitate buying and selling on campus.</p>
+                        <p>I graduated from the Islamic University of Madinah(IUM) in 2023 with a degree in computer science and currently pursuing a Master's degree in Data Science at the same university.</p>
+                        <div id = "form" >
+                            <h5>Let's get in touch</h5>
+                            <form action="" method="">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="full name">
+                                    <label for="floatingInput">Full Name</label>
+                                  </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
+                                    <label for="floatingInput">Subject</label>
+                                  </div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Message</label>
+                                </div>
+                                <div id = "submit_btn" class="mx-auto">
+                                    <button class="btn btn-dark" type="submit">Message me</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                        
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="lost-items.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title bold"><strong>FindMyItems</strong></h5>
+                                  <p class="card-text">A social app to track lost items</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="social-media.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title"><strong>IUConnect</strong></h5>
+                                  <p class="card-text">A Twitter-like social network app for making posts and following users.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+        
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="ecommerce.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title"><strong>IUSouq</strong></h5>
+                                  <p class="card-text">An eBay-like e-commerce auction site.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="finance.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title"><strong>Finance</strong></h5>
+                                  <p class="card-text">A webapp via which users can “buy” and “sell” stocks.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="mail.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title"><strong>Mail</strong></h5>
+                                  <p class="card-text">A front-end for an email client that makes API calls to send and receive emails.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="social.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title"><strong>Wiki</strong></h5>
+                                  <p class="card-text">A Wikipedia-like online encyclopedia.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="happy-birthday.png" class="img-fluid rounded-start icon" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title"><strong>Birthdays</strong></h5>
+                                  <p class="card-text">A web application to keep track of friends’ birthdays.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                        <ul>
+                            <li>Master of Science in Data Science</li>
+                            <li>Bachelor of Science in Computer Science</li>
+                            <li>IBM Data Science Professional Certificate</li>
+                            <li>Google Data Analytics Professional Certificate</li>
+                            <li>Google Project Manager Professional Certificate</li>
+                            <li>Meta Backend Developer Professional Certificate</li>
+                            <li>Meta Database Engineer Professional Certificate</li>
+                            <li>Meta Frontend Developer Professional Certificate</li>
+                            <li>CS50AI: CS50’s Introduction to Artificial Intelligence with Python</li>
+                            <li>CS50W: CS50’s Web Programming with Python and JavaScript</li>
+                            <li>CS50P: CS50’s Introduction to Programming with Python</li>
+                            <li>CS50X: CS50’s Introduction to Computer Science</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="nav-blog" role="tabpanel" aria-labelledby="nav-blog-tab" tabindex="0">
+                        <p style="text-align: center;">Coming soon...</p>
+                    </div>
+                  </div>
+                
+            </div>
+        </main>
+        <footer>
+            <a href=""><img class="footer_img"src="email.png"></a>
+            <a href="https://www.linkedin.com/in/sumaila-ali-007gh/"><img class="footer_img"src="linkedin.png"></a>
+            <a href="https://github.com/haidara007gh"><img class="footer_img"src="github.png"> </a>           
+            <a href=""><img class="footer_img"src="instagram.png"></a>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

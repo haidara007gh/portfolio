@@ -1,0 +1,67 @@
+body{
+    margin:10px 10px 10px 10px;
+    
+}
+
+header{
+    text-align:center;
+}
+main{
+    max-width: 500px;
+    margin: 10px auto 10px auto; 
+    text-align: left;
+    /* display:flex;
+    justify-content:center; */
+}
+#profile_pic{
+    width:120px;
+    height:120px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:center;
+}
+
+h4{
+    padding-top:10px;
+    text-align:left;
+}
+nav {
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+}
+#form{
+    max-width: 500px;
+    margin:0 auto;
+    padding: 50px 10px 50px 10px;
+    border: solid 1px rgb(7, 240, 233);
+    border-radius: 15px;
+}
+h5{
+    text-align:center;
+    font-family: monospace;
+}
+input{
+    border-radius: 50px;
+}
+#submit_btn{
+    display:flex;
+    justify-content: center;
+}
+footer{
+    display:flex;
+    justify-content:center;
+}
+.footer_img{
+    width:32px;
+    height:32px;
+    padding-right:2px;
+   
+}
+.icon{
+    width:100px;
+    height:100px;
+    padding:5px 5px 5px 5px;
+    display:flex;
+    justify-content:center;
+}
